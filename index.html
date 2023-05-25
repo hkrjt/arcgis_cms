@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <title>ArchGIS Content Management</title>
+    <style>
+        .card-cover{
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-    <h2>Go to gis.hutamakarya.site</h2>
+    <div class="container px4 py-5">
+        <h1 class="fs-1 pb-2 border-bottom text-center">Pilih Ruas</h1>
+
+        <div class="row py-5 row-cols-1 row-cols-lg-3 d-flex align-self-stretch h-100">
+            <div class="col">
+                <a href="./betung-jambi.html" style="text-decoration: none;">
+                    <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/betung-jambi-min.jpg');height:300px;">
+                      <div class="d-flex h-100 align-items-end h-100 p-3 text-white text-shadow-1">
+                        <h3 class="fs-3 lh-1 fw-bold text-center">Betung - Jambi</h3>
+                      </div>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col">
+                <a href="./jambi-rengat.html" style="text-decoration: none;">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/sungai_batanghari-min.jpg');">
+                      <div class="d-flex h-100 align-items-end h-100 p-3 text-white text-shadow-1">
+                        <h3 class="fs-3 lh-1 fw-bold text-center">Jambi - Rengat</h3>
+                      </div>
+                    </div>
+                </a>
+              </div>
+        
+              <div class="col">
+                <a href="./rengat-pekanbaru.html" style="text-decoration: none;">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./images/rengat-pekanbaru-min.PNG');">
+                      <div class="d-flex h-100 align-items-end h-100 p-3 text-shadow-1">
+                        <h3 class="fs-3 lh-1 fw-bold text-center">Rengat - Pekanbaru</h3>
+                      </div>
+                    </div>
+                </a>
+              </div>
+        </div>
+    </div>
 </body>
 </html>
