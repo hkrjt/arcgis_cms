@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <title>ArchGIS Content Management</title>
+    <style>
+        .card-cover{
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container px4 py-5">
+        <h1 class="fs-1 pb-2 border-bottom text-center">Dokumen Kontrak Ruas Rengat - Pekanbaru</h1>
+
+        <div class="row">
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Basic Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">RTA</button>
+                </li>
+            </ul>
+            <div class="col">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <h2 class="border-bottom fs-4 pt-3">Dokumen Kontrak Basic Design</h2>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Tahap</th>
+                                    <th>Judul</th>
+                                    <th>Nomor Kontrak</th>
+                                    <th>Tanggal Kontrak</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Kontrak Basic Design</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#bd1">
+                                            Jasa Konsultansi Penyusunan Review Desain Awal (Basic Design) dan Dokumen Perencanaan Pengadaan Tanah (DPPT) Jalan Tol Ruas Rengat - Pekanbaru
+                                        </a>
+                                    </td>
+                                    <td>DPBJT/FE.357/S.Perj.08/II/2019</td>
+                                    <td>11 Februari 2019</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Addendum 1 Perjanjian Basic Design</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#bd1">
+                                            Jasa Konsultansi Penyusunan Review Desain Awal (Basic Design) dan Dokumen Perencanaan Pengadaan Tanah (DPPT) Jalan Tol Ruas Rengat - Pekanbaru
+                                        </a>
+                                    </td>
+                                    <td>DPBJT/FE.2677D/S.Perj.53A/X/2019</td>
+                                    <td>16 Oktober 2019</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Addendum 1 Basic Design</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#bd1">
+                                            Jasa Konsultansi Penyusunan Review Desain Awal (Basic Design) dan Dokumen Perencanaan Pengadaan Tanah (DPPT) Jalan Tol Ruas Rengat - Pekanbaru
+                                        </a>
+                                    </td>
+                                    <td>PBJT/FE.817J/S.Perj.61/III/2020</td>
+                                    <td>26 Maret 2020</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="modal fade" id="bd1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=4430dd11-8088-4f45-9ee2-462ecef8d62b" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20190211_Kontrak BD & DPPT Rengat-PKU.HK.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="bd2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=18bfc002-17a8-447b-9510-25d335ddbfd4" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20191016_Add 1 BD&DPPT Rengat-Pekanbaru_Terkendali 1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="bd3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=3cc1e81f-d978-48b0-b226-015bf7706c90" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20200326_Add 2 BD&DPPT Rengat-Pku_T1 TEK.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <h2 class="border-bottom fs-4 pt-3">Dokumen Kontrak RTA</h2>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Tahap</th>
+                                    <th>Judul</th>
+                                    <th>Nomor Kontrak</th>
+                                    <th>Tanggal Kontrak</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Kontrak Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta1">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 1 STA 0+000 s/d STA 40+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/SRK.879G/S.Perj.125C/VII/2021</td>
+                                    <td>07 Juli 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Kontrak Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta2">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 2 STA 40+000 s/d STA 80+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/SRK.1306/S.Perj.213/X/2021</td>
+                                    <td>28 Oktober 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Kontrak Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta3">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 3 STA 80+000 s/d STA 120+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/SRK.1307/S.Perj.213A/X/2021</td>
+                                    <td>28 Oktober 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Kontrak Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta4">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 4 STA 120+000 s/d STA 166+070
+                                        </a>
+                                    </td>
+                                    <td>RJT/SRK.1308/S.Perj.213B/X/2021</td>
+                                    <td>28 Oktober 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Kontrak Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta5">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 5 STA 166+070 s/d STA 206+070
+                                        </a>
+                                    </td>
+                                    <td>RJT/SRK.879J/S.Perj.125I/VII/2021</td>
+                                    <td>07 Juli 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Addendum 1 Perjanjian Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta6">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 1 STA 0+000 s/d STA 40+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/SRK.956X/S.Perj.157I/VIII/2021</td>
+                                    <td>13 Agustus 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Addendum 1 Perjanjian Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta7">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 2 STA 40+000 s/d STA 80+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/MH.375D/S.Perj.10/IV/2022</td>
+                                    <td>28 April 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Addendum 1 Perjanjian Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta8">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 3 STA 80+000 s/d STA 120+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/MH.375E/S.Perj.1P/IV/2022</td>
+                                    <td>28 April 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Addendum 1 Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta9">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 4 STA 120+000 s/d STA 166+070
+                                        </a>
+                                    </td>
+                                    <td>RJT/MH.375G/S.Perj.1Q/IV/2022</td>
+                                    <td>28 April 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Addendum 2 Perjanjian Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta10">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 5 STA 166+070 s/d STA 206+070
+                                        </a>
+                                    </td>
+                                    <td>RJT/SRK.956Y/S.Perj157J/VIII/2021</td>
+                                    <td>13 Agustus 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Addendum 2 Perjanjian Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta11">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 1 STA 0+000 s/d STA 40+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/MH.026D/S.Perj.01K/I/2022</td>
+                                    <td>07 Januari 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Addendum 2 Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta12">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 2 STA 40+000 s/d STA 80+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/SDN.604C/S.Perj.6C/VII/2022</td>
+                                    <td>12 Juli 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Addendum 2 Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta13">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 3 STA 80+000 s/d STA 120+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/SDN.604G/S.Perj.6E/VII/2022</td>
+                                    <td>12 Juli 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>Addendum 2 Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta14">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 4 STA 120+000 s/d STA 166+070
+                                        </a>
+                                    </td>
+                                    <td>RJT/SDN.604E/S.Perj.6D/VII/2022</td>
+                                    <td>12 Juli 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Addendum 2 Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta15">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 5 STA 166+070 s/d STA 206+070
+                                        </a>
+                                    </td>
+                                    <td>RJT/MH.031G/S.Perj.05/I/2022</td>
+                                    <td>10 Januari 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>Addendum 3 Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta16">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 1 STA 0+000 s/d STA 40+000
+                                        </a>
+                                    </td>
+                                    <td>RJT/MH.275BF/S.Perj.1AC/III/2022</td>
+                                    <td>31 Maret 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Addendum 3 Rencana Teknik Akhir (RTA)</td>
+                                    <td>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#rta17">
+                                            Jasa Konsultansi Penyusunan Rencana Teknik Akhir (RTA)/Detailed Engineering Design (DED) Jalan Tol Ruas Rengat - Pekanbaru Seksi 5 STA 166+070 s/d STA 206+070
+                                        </a>
+                                    </td>
+                                    <td>RJT/MH.275AP/S.Perj.1U/III/2022</td>
+                                    <td>31 Maret 2022</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="modal fade" id="rta1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=734e331f-4dbf-4603-bc9a-fa31fda55272" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20210707_Kontrak DED RengPku Seksi 1_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=0f3e6f46-db07-4fdd-8cf6-ebeaf3fce554" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20211028 Kontrak DED RengPek 2_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=2d400d2c-792f-4709-8a51-7b87534f55da" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20211028 Kontrak DED RengPek 3_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=f3bb2505-c2b8-4477-8c36-20d7c2a18aee" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20211028 Kontrak DED RengPek 4_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=e67421c1-8b17-47c9-84a7-d20fb6a149d0" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20210707_Kontrak DED RengPKU Seksi 5_Terkendali.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=4c27b306-3d4f-4ad6-8f26-a32d2a0b1006" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20210813_Add 1 DED RengPKU 1_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=c22a4be7-9e69-41d4-bd7e-16801404be3f" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220428_Add I DED RengPu Seksi 2_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=23a18583-63b8-4427-8fff-583a110d72af" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220428_Add I DED RengPu Seksi 3_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=b8130ec5-380b-4303-9113-19757c439126" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220428_Add I DED RengPu Seksi 4_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=910b492f-b580-4419-90ab-32e45f051fe8" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20210813_Add 1 DED RengPKU Seksi 5_T1 RJT.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=32f616f8-e4a6-4390-a065-3dfb8c42762d" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220107_Add 2 DED RengPu Seksi 1_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=683843fd-bc5a-4fd9-a247-d235bcfefa77" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220712_Add II Rengpek Seksi 2_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=93793e16-fa50-44ec-8fd1-1a093e624cf7" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220712_Add II RengPek Seksi 3_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=d7964391-79e5-4106-82ab-a9c00cbbe351" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220712_Add II RengPek Seksi  4_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=89411ca3-8225-4efd-b783-e0aeeae4894a" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220110_Add II DED RengPu Seksi 5_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=218d66bd-82c0-4b77-895d-b608af2eae08" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220331_Add 3 DED RengPu Seksi 1_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="rta17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="bd1">Lihat Dokumen</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="https://hutamakaryapersero.sharepoint.com/sites/BIMRJT/_layouts/15/embed.aspx?UniqueId=9839d0b5-214d-408f-bc67-cc7a175232ca" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="20220331_Add III DED RengPu Seksi 5_T1.pdf"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
